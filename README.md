@@ -1,6 +1,7 @@
 # Kony-Code-Challenge
+Visualizer Version : V9SP2FP16
+# This is a program which solves the below problem statement
 
-##This is a program which solves the below problem statement
 We have a robot that can pickup blocks from a stash, move them horizontally and lower them in place. There are 10 positions available to lower blocks number 0 to 9. Each position can hold up to 15 blocks.
 
 The robot understands the commands 'P', 'M' and 'L':
