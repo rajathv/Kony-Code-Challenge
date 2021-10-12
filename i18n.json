@@ -1,0 +1,19 @@
+{
+    "keys": [
+        "lblEnterTest"
+    ],
+    "locales": {
+        "en": {
+            "i18nStrings": {
+                "lblEnterTest": "Enter Robot Command"
+            },
+            "isCustomLocale": false,
+            "isSelected": true,
+            "layoutConfig": {
+                "mirrorContentAlignment": false,
+                "mirrorFlexPositionProperties": false,
+                "mirrorFlowHorizontalAlignment": false
+            }
+        }
+    }
+}

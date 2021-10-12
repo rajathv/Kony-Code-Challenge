@@ -1,0 +1,67 @@
+{
+    "HEAD": "w8b0542aed05406e8753655c102e4fcb",
+    "w099a0c3d7c1427a8400df8c1ef6244d": {
+        "extension": "js",
+        "kuid": "w099a0c3d7c1427a8400df8c1ef6244d",
+        "name": "chartist-plugin-axistitle.js",
+        "parent": "wbe52ffa48dc41edbf7e4c66601435fb",
+        "type": "F"
+    },
+    "w1dacdb8c29644e1a00c0f437661ecc9": {
+        "extension": "js",
+        "kuid": "w1dacdb8c29644e1a00c0f437661ecc9",
+        "name": "chartist.js",
+        "parent": "wbe52ffa48dc41edbf7e4c66601435fb",
+        "type": "F"
+    },
+    "w745156c329d45459ba3f45d7668de01": {
+        "extension": "js",
+        "kuid": "w745156c329d45459ba3f45d7668de01",
+        "name": "LIC.js",
+        "parent": "wbe52ffa48dc41edbf7e4c66601435fb",
+        "type": "F"
+    },
+    "w8b0542aed05406e8753655c102e4fcb": {
+        "children": [
+            "wbe52ffa48dc41edbf7e4c66601435fb"
+        ],
+        "kuid": "w8b0542aed05406e8753655c102e4fcb",
+        "name": "localfiles",
+        "type": "L"
+    },
+    "wb3bd4468ec94018adcf70a64c1ee100": {
+        "extension": "css",
+        "kuid": "wb3bd4468ec94018adcf70a64c1ee100",
+        "name": "chartitst.css",
+        "parent": "wbe52ffa48dc41edbf7e4c66601435fb",
+        "type": "F"
+    },
+    "wbe52ffa48dc41edbf7e4c66601435fb": {
+        "children": [
+            "w099a0c3d7c1427a8400df8c1ef6244d",
+            "w1dacdb8c29644e1a00c0f437661ecc9",
+            "wd85ebc95e4d476895b160638ceade99",
+            "wb3bd4468ec94018adcf70a64c1ee100",
+            "w745156c329d45459ba3f45d7668de01",
+            "wcd3b88b79854167959a5fd65a5359ea"
+        ],
+        "kuid": "wbe52ffa48dc41edbf7e4c66601435fb",
+        "name": "Chart_vertical",
+        "parent": "w8b0542aed05406e8753655c102e4fcb",
+        "type": "D"
+    },
+    "wcd3b88b79854167959a5fd65a5359ea": {
+        "extension": "html",
+        "kuid": "wcd3b88b79854167959a5fd65a5359ea",
+        "name": "verticalBarChartist.html",
+        "parent": "wbe52ffa48dc41edbf7e4c66601435fb",
+        "type": "F"
+    },
+    "wd85ebc95e4d476895b160638ceade99": {
+        "extension": "js",
+        "kuid": "wd85ebc95e4d476895b160638ceade99",
+        "name": "chartist_VerticalBar.js",
+        "parent": "wbe52ffa48dc41edbf7e4c66601435fb",
+        "type": "F"
+    }
+}

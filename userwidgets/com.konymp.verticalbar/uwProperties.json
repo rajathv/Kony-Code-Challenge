@@ -1,0 +1,321 @@
+{
+    "classname": "verticalbar",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "c5c77768c37f4899a27131ae27a8d112",
+                    "paramList": [
+                        {
+                            "name": "dataSet"
+                        }
+                    ],
+                    "propertyKey": "createChart",
+                    "pw": {
+                        "displayName": "createChart",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "c53217d16a4d4d35ad698d421a81f480",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [
+                "Axis Titles",
+                "Grid",
+                "Title"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": true,
+                    "group": "Grid",
+                    "kuid": "db5fbbe4e3ef440aa3b97655bf901e95",
+                    "originalPropertyKey": "enableGrid",
+                    "propertyIndex": 1,
+                    "propertyKey": "enableGrid",
+                    "pw": {
+                        "displayName": "Enable Grid",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "c53217d16a4d4d35ad698d421a81f480",
+                    "type": "boolean",
+                    "value": "true/false"
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": {
+                        "data": [
+                            {
+                                "colorCode": "#1B9ED9",
+                                "label": "Data1",
+                                "value": "25"
+                            },
+                            {
+                                "colorCode": "#76C044",
+                                "label": "Data2",
+                                "value": "20"
+                            },
+                            {
+                                "colorCode": "#E8672B",
+                                "label": "Data3",
+                                "value": "10"
+                            },
+                            {
+                                "colorCode": "#464648",
+                                "label": "Data4",
+                                "value": "30"
+                            },
+                            {
+                                "colorCode": "#FFC522",
+                                "label": "Data5",
+                                "value": "40"
+                            }
+                        ],
+                        "schema": [
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "Value",
+                                "columnHeaderType": "text",
+                                "columnID": "value",
+                                "columnOnClick": null,
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "adb02a6b13a046f4861d9d64ef0c34ee"
+                            },
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "Color Code",
+                                "columnHeaderType": "text",
+                                "columnID": "colorCode",
+                                "columnOnClick": null,
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "f7ad02b6f3df4493bb1ef588ab70e008"
+                            },
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "Label",
+                                "columnHeaderType": "text",
+                                "columnID": "label",
+                                "columnOnClick": null,
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "b59fe0cbc1394743a3214ea7583c0180"
+                            }
+                        ]
+                    },
+                    "group": "General",
+                    "kuid": "ec1e427b7488408f92a6fd66a2bed044",
+                    "originalPropertyKey": "chartData",
+                    "propertyIndex": 1,
+                    "propertyKey": "chartData",
+                    "pw": {
+                        "displayName": "Chart Data",
+                        "uiRepresentation": "Label-DataGrid"
+                    },
+                    "srcWgtKUID": "c53217d16a4d4d35ad698d421a81f480",
+                    "type": "data grid",
+                    "value": 3
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Vertical Bar",
+                    "group": "Title",
+                    "kuid": "c1514740d4e84ae48bbcd5c0cd3448f9",
+                    "originalPropertyKey": "chartTitle",
+                    "propertyIndex": 1,
+                    "propertyKey": "chartTitle",
+                    "pw": {
+                        "displayName": "Chart Title",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "c53217d16a4d4d35ad698d421a81f480",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "x-axis",
+                    "group": "Axis Titles",
+                    "kuid": "b727753f92554933ac9031d83cadf1e8",
+                    "originalPropertyKey": "xAxisTitle",
+                    "propertyIndex": 1,
+                    "propertyKey": "xAxisTitle",
+                    "pw": {
+                        "displayName": "X Axis Title",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "c53217d16a4d4d35ad698d421a81f480",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "0",
+                    "group": "General",
+                    "kuid": "d12b3c28eef845e2978c7ab859ea4480",
+                    "originalPropertyKey": "lowValue",
+                    "propertyIndex": 2,
+                    "propertyKey": "lowValue",
+                    "pw": {
+                        "displayName": "Low Value",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "c53217d16a4d4d35ad698d421a81f480",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": true,
+                    "group": "Grid",
+                    "kuid": "e6e7beaf36444cfe9294727b34065205",
+                    "originalPropertyKey": "enableGridAnimation",
+                    "propertyIndex": 2,
+                    "propertyKey": "enableGridAnimation",
+                    "pw": {
+                        "displayName": "Enable Grid Animation",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "c53217d16a4d4d35ad698d421a81f480",
+                    "type": "boolean",
+                    "value": "true/false"
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "12",
+                    "group": "Title",
+                    "kuid": "e5454a9f2e4844729caaba251f2951a9",
+                    "originalPropertyKey": "titleFontSize",
+                    "propertyIndex": 2,
+                    "propertyKey": "titleFontSize",
+                    "pw": {
+                        "displayName": "Title Font Size",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "c53217d16a4d4d35ad698d421a81f480",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "y-axis",
+                    "group": "Axis Titles",
+                    "kuid": "j796c3f8a08e473285414e46c54fc614",
+                    "originalPropertyKey": "yAxisTitle",
+                    "propertyIndex": 2,
+                    "propertyKey": "yAxisTitle",
+                    "pw": {
+                        "displayName": "Y Axis Title",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "c53217d16a4d4d35ad698d421a81f480",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "#000000",
+                    "group": "Title",
+                    "kuid": "he222909fd2e4222a525e12a70c0f8d8",
+                    "originalPropertyKey": "titleFontColor",
+                    "propertyIndex": 3,
+                    "propertyKey": "titleFontColor",
+                    "pw": {
+                        "displayName": "Title Font Color",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "c53217d16a4d4d35ad698d421a81f480",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "40",
+                    "group": "General",
+                    "kuid": "b68c13231e334d988f1c7530f8a0ac44",
+                    "originalPropertyKey": "highValue",
+                    "propertyIndex": 3,
+                    "propertyKey": "highValue",
+                    "pw": {
+                        "displayName": "High Value",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "c53217d16a4d4d35ad698d421a81f480",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "#FFFFFF",
+                    "group": "General",
+                    "kuid": "fcbd9a5b946c469186bb2b4cced30995",
+                    "originalPropertyKey": "bgColor",
+                    "propertyIndex": 4,
+                    "propertyKey": "bgColor",
+                    "pw": {
+                        "displayName": "Background Color",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "c53217d16a4d4d35ad698d421a81f480",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": true,
+                    "group": "General",
+                    "kuid": "dc6efd1fbbc94f718339ebc0af5243e4",
+                    "originalPropertyKey": "enableChartAnimation",
+                    "propertyIndex": 5,
+                    "propertyKey": "enableChartAnimation",
+                    "pw": {
+                        "displayName": "Enable Chart Animation",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "c53217d16a4d4d35ad698d421a81f480",
+                    "type": "boolean",
+                    "value": "true/false"
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": true,
+                    "group": "General",
+                    "kuid": "gff0cb822f94494fb79563ff0638d8ec",
+                    "originalPropertyKey": "enableStaticPreview",
+                    "propertyIndex": 6,
+                    "propertyKey": "enableStaticPreview",
+                    "pw": {
+                        "displayName": "Enable Static Preview",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "c53217d16a4d4d35ad698d421a81f480",
+                    "type": "boolean",
+                    "value": "true/false"
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}

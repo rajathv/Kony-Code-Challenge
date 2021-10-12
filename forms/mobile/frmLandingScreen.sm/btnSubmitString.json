@@ -1,0 +1,60 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sbd53e23f0984e3499a49b5f8b864617",
+    "_text_": "Submit",
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "20%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "s04c0a1aa8dd4fbf93118a0c6e053375",
+    "id": "btnSubmitString",
+    "ide_onClick": "AS_Button_a1caec2af45348b0a06cb56ce4b28f0b",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f5fb4ffa4e4841dfb6d6b30d9b01e686",
+    "name": "kony.ui.Button",
+    "parent": "flxContent",
+    "pf": "frmLandingScreen",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button"
+}

@@ -1,0 +1,67 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "29dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s648071002be4fb796190986e25f0e26",
+    "_src_": "logo.png",
+    "_width_": {
+        "type": "string",
+        "value": "65dp"
+    },
+    "android": {
+        "left": {
+            "type": "string",
+            "value": "20dp"
+        }
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": ""
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "id": "headerTitleLogo",
+    "imagescalemode": 1,
+    "info": null,
+    "invokedProperty": "src",
+    "iphone": {
+        "centerX": {
+            "type": "string",
+            "value": "50%"
+        }
+    },
+    "isvisible": true,
+    "kuid": "cee738f143e5476ea1e8e91d42b86530",
+    "masterType": 1,
+    "name": "kony.ui.Image2",
+    "parent": "headerContainer02",
+    "pf": "frmLandingScreen",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

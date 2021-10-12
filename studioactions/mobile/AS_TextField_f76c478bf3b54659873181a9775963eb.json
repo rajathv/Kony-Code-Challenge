@@ -1,0 +1,31 @@
+{
+    "AS_TextField_f76c478bf3b54659873181a9775963eb": {
+        "id": "AS_TextField_f76c478bf3b54659873181a9775963eb",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "frmLandingScreen",
+            "type": "forms",
+            "platform": "",
+            "KUID": "fb0c531d6886496daaff4bef75b0c781"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__cdcea7e10b4c4e0fa1b9db412c6e789c",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "enableSubmitButton",
+            "display": "enableSubmitButton",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

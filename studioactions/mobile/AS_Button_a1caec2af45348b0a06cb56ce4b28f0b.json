@@ -1,0 +1,28 @@
+{
+    "AS_Button_a1caec2af45348b0a06cb56ce4b28f0b": {
+        "id": "AS_Button_a1caec2af45348b0a06cb56ce4b28f0b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLandingScreen",
+            "type": "forms",
+            "platform": "",
+            "KUID": "fb0c531d6886496daaff4bef75b0c781"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__b5e5f79a8b5a40eba54e7cc0d8d83d16",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "buttonSubmitClick",
+            "display": "buttonSubmitClick",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

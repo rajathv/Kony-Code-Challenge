@@ -1,0 +1,28 @@
+{
+    "AS_Button_a97ae091b9f64f52a2bd3f461d002465": {
+        "id": "AS_Button_a97ae091b9f64f52a2bd3f461d002465",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmResultScreen",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f00870c170874e2ba600bb70479490e7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__hb259beedd5e4861bc07ae5d080b057b",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "applicationExitButton",
+            "display": "applicationExitButton",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}
